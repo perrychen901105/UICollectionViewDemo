@@ -13,7 +13,6 @@
 		C2DF9FFD1966ACAA0092CC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DF9FFB1966ACAA0092CC5D /* InfoPlist.strings */; };
 		C2DF9FFF1966ACAA0092CC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF9FFE1966ACAA0092CC5D /* main.m */; };
 		C2DFA0031966ACAA0092CC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DFA0021966ACAA0092CC5D /* AppDelegate.m */; };
-		C2DFA0061966ACAA0092CC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DFA0041966ACAA0092CC5D /* Main.storyboard */; };
 		C2DFA0091966ACAA0092CC5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DFA0081966ACAA0092CC5D /* ViewController.m */; };
 		C2DFA00B1966ACAA0092CC5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DFA00A1966ACAA0092CC5D /* Images.xcassets */; };
 		C2DFA0121966ACAA0092CC5D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DFA0111966ACAA0092CC5D /* XCTest.framework */; };
@@ -21,6 +20,8 @@
 		C2DFA0141966ACAA0092CC5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DF9FF61966ACAA0092CC5D /* UIKit.framework */; };
 		C2DFA01C1966ACAA0092CC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DFA01A1966ACAA0092CC5D /* InfoPlist.strings */; };
 		C2DFA01E1966ACAA0092CC5D /* Flickr_SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DFA01D1966ACAA0092CC5D /* Flickr_SearchTests.m */; };
+		C2DFA0281966AD470092CC5D /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C2DFA0271966AD470092CC5D /* Assets */; };
+		C2DFA02A1966B00F0092CC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DFA0291966B00F0092CC5D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 		C2DFA0001966ACAA0092CC5D /* Flickr Search-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flickr Search-Prefix.pch"; sourceTree = "<group>"; };
 		C2DFA0011966ACAA0092CC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2DFA0021966ACAA0092CC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C2DFA0051966ACAA0092CC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2DFA0071966ACAA0092CC5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C2DFA0081966ACAA0092CC5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2DFA00A1966ACAA0092CC5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		C2DFA0191966ACAA0092CC5D /* Flickr SearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flickr SearchTests-Info.plist"; sourceTree = "<group>"; };
 		C2DFA01B1966ACAA0092CC5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2DFA01D1966ACAA0092CC5D /* Flickr_SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flickr_SearchTests.m; sourceTree = "<group>"; };
+		C2DFA0271966AD470092CC5D /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		C2DFA0291966B00F0092CC5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +116,7 @@
 			children = (
 				C2DFA0011966ACAA0092CC5D /* AppDelegate.h */,
 				C2DFA0021966ACAA0092CC5D /* AppDelegate.m */,
-				C2DFA0041966ACAA0092CC5D /* Main.storyboard */,
+				C2DFA0291966B00F0092CC5D /* Main.storyboard */,
 				C2DFA0071966ACAA0092CC5D /* ViewController.h */,
 				C2DFA0081966ACAA0092CC5D /* ViewController.m */,
 				C2DFA00A1966ACAA0092CC5D /* Images.xcassets */,
@@ -126,6 +128,7 @@
 		C2DF9FF91966ACAA0092CC5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C2DFA0271966AD470092CC5D /* Assets */,
 				C2DF9FFA1966ACAA0092CC5D /* Flickr Search-Info.plist */,
 				C2DF9FFB1966ACAA0092CC5D /* InfoPlist.strings */,
 				C2DF9FFE1966ACAA0092CC5D /* main.m */,
@@ -229,8 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DFA00B1966ACAA0092CC5D /* Images.xcassets in Resources */,
+				C2DFA0281966AD470092CC5D /* Assets in Resources */,
 				C2DF9FFD1966ACAA0092CC5D /* InfoPlist.strings in Resources */,
-				C2DFA0061966ACAA0092CC5D /* Main.storyboard in Resources */,
+				C2DFA02A1966B00F0092CC5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +284,6 @@
 				C2DF9FFC1966ACAA0092CC5D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C2DFA0041966ACAA0092CC5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2DFA0051966ACAA0092CC5D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		C2DFA01A1966ACAA0092CC5D /* InfoPlist.strings */ = {
@@ -379,7 +375,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flickr Search/Flickr Search-Prefix.pch";
 				INFOPLIST_FILE = "Flickr Search/Flickr Search-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +390,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flickr Search/Flickr Search-Prefix.pch";
 				INFOPLIST_FILE = "Flickr Search/Flickr Search-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
